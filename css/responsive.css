@@ -1,22 +1,32 @@
 /* ===== for extra small device ===== */
 @media (min-width: 320px) and (max-width: 575px) {
   #main-area .card-area .first-layer{
-    width: 322px;
-    height: 250px;
+    width: 280px;
+    height: 320px;
     clip-path: polygon(50% 0%, 71% 0, 100% 0, 100% 89%, 93% 100%, 0 100%, 0 0);
   }
   #main-area .card-area .first-layer ul li i{
     font-size: 14px;
   }
   #main-area .card-area .first-layer .second-layer{
-    width: 322px;
-    height: 250px;
-    clip-path: polygon(50% 0%, 56% 20%, 100% 20%, 100% 89%, 93% 100%, 0 100%, 0 0);
+    width: 280px;
+    height: 320px;
+    clip-path: polygon(40% 0%, 50% 20%, 100% 20%, 100% 89%, 93% 100%, 0 100%, 0 0);
   }
   #main-area .card-area .first-layer .second-layer .third-layer{
-    width: 320px;
-    height: 249px;
-    clip-path: polygon(50% 0%, 56% 20%, 100% 20%, 100% 89%, 93% 100%, 0 100%, 0 0);
+    width: 278px;
+    height: 318px;
+    clip-path: polygon(40% 0%, 50% 20%, 100% 20%, 100% 89%, 93% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area .first-layer .second-layer .third-layer .contents .heading{
+    display: inherit;
+  }
+  #main-area .card-area .first-layer .second-layer .third-layer .contents .heading h1{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area .first-layer .second-layer .third-layer .contents .heading p{
+    margin-left: 0;
   }
   #main-area .card-area-2 .first-layer .second-layer{
     width: 300px;
