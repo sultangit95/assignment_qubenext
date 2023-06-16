@@ -1,0 +1,199 @@
+/* ===== for extra small device ===== */
+@media (min-width: 320px) and (max-width: 575px) {
+  #main-area .card-area .first-layer{
+    width: 322px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 71% 0, 100% 0, 100% 89%, 93% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area .first-layer ul li i{
+    font-size: 14px;
+  }
+  #main-area .card-area .first-layer .second-layer{
+    width: 322px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 56% 20%, 100% 20%, 100% 89%, 93% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area .first-layer .second-layer .third-layer{
+    width: 320px;
+    height: 249px;
+    clip-path: polygon(50% 0%, 56% 20%, 100% 20%, 100% 89%, 93% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer{
+    width: 300px;
+    height: 750px;
+    clip-path: polygon(50% 0%, 61% 10%, 100% 10%, 100% 95%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer{
+    width: 298px;
+    height: 748px;
+    clip-path: polygon(50% 0%, 61% 10%, 100% 10%, 100% 95%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading{
+    display: inline;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading h1{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading p{
+    margin-left: 0;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul li{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .footer{
+    display: inherit;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .details p{
+    padding-right: 20px;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .replay {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+/* ===== for small device ===== */
+@media (min-width: 576px) and (max-width: 767px) {
+  #main-area .card-area-2 .first-layer .second-layer{
+    width: 400px;
+    height: 600px;
+    clip-path: polygon(50% 0%, 55% 15%, 100% 15%, 100% 91%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer{
+    width: 398px;
+    height: 598px;
+    clip-path: polygon(50% 0%, 55% 15%, 100% 15%, 100% 91%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading{
+    display: inline;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading h1{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading p{
+    margin-left: 0;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul li{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .details p{
+    padding-right: 20px;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .replay {
+    margin-right: 10px;
+  }
+}
+
+/* ===== for medium device ===== */
+@media (min-width: 768px) and (max-width: 991px) {
+  #main-area .card-area-2 .first-layer .second-layer{
+    width: 500px;
+    height: 550px;
+    clip-path: polygon(50% 0%, 55% 15%, 100% 15%, 100% 91%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer{
+    width: 498px;
+    height: 548px;
+    clip-path: polygon(50% 0%, 55% 15%, 100% 15%, 100% 91%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading{
+    display: inline;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading h1{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading p{
+    margin-left: 0;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul li{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .details p{
+    padding-right: 20px;
+    text-align: justify;
+    margin-top: 10px;
+  }
+}
+
+/* ===== for large device ===== */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #main-area .card-area-2 .first-layer .second-layer{
+    width: 600px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 55% 15%, 100% 15%, 100% 89%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer{
+    width: 598px;
+    height: 498px;
+    clip-path: polygon(50% 0%, 55% 15%, 100% 15%, 100% 89%, 90% 100%, 0 100%, 0 0);
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading{
+    display: inline;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading h1{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading p{
+    margin-left: 0;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul li{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .details p{
+    padding-right: 20px;
+    text-align: justify;
+    margin-top: 10px;
+  }
+}
+
+/* ===== for extra large device ===== */
+@media (min-width: 1200px) and (max-width: 1399px) {  
+  #main-area .card-area-2 .first-layer .second-layer{
+    width: 840px;
+    height: 360px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer{
+    width: 838px;
+    height: 358px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul{
+    margin-left: 10px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul li i{
+    font-size: 18px;
+  } 
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .hr{
+    margin-top: 20px;
+  }
+  #main-area .card-area-2 .first-layer .second-layer .third-layer .contents .details p{
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,318 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--bg);
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+/* ===== common css ends ===== */
+/* ===== vaiables starts ===== */
+:root{
+  --btn-font: 'Roboto', sans-serif;
+  --brand: #FF7A00;
+  --star: #FFA800;
+  --border: #FF0000;
+  --white: #ffffff;
+  --bg: #1e1e1e; 
+}
+/* ===== main area css starts ===== */
+#main-area{
+  padding: 60px 0;
+  border: 5px solid var(--brand);
+}
+#main-area .button-area .button-1{
+  position: relative;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  margin: 60px auto;
+}
+#main-area .button-area .button-1 .hexa{
+  width: 200px;
+  height: 62px;
+  clip-path: polygon(8% 0, 100% 0, 100% 75%, 92% 100%, 0 100%, 0 25%);
+  background: var(--brand);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#main-area .button-area .button-1 .hexa .inner-hexa{
+  position: relative;
+  width: 198px;
+  height: 61px;
+  background: var(--bg);
+  clip-path: polygon(8% 0, 100% 0, 100% 75%, 92% 100%, 0 100%, 0 25%);
+  transition: all linear .5s;
+}
+#main-area .button-area .button-1 .hexa .inner-hexa:hover{
+  background: var(--brand);
+}
+#main-area .button-area .button-1 .hexa .inner-hexa:hover .img-3 i{
+  color: var(--bg);
+}
+#main-area .button-area .button-1 .hexa .inner-hexa .img-3 i{
+  font-size: 20px;
+  height: 5px;
+  width: 5px;
+  color: var(--brand);
+  transform: rotate(135deg);
+  position: absolute;
+  top: -4px;
+  right: 1px;
+  z-index: 999;
+  transform: rotate(45deg);
+  transition: all linear .5s;
+}
+#main-area .button-area .button-1 .hexa .inner-hexa button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: var(--white);
+  font-family: var(--btn-font);
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#main-area .button-area .button-1 .img-1 i{
+  font-size: 20px;
+  height: 5px;
+  width: 5px;
+  color: var(--brand);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 8px;
+  left: -9px;
+  z-index: 999;
+}
+#main-area .button-area .button-1 .img-2 i{
+  font-size: 20px;
+  height: 5px;
+  width: 5px;
+  color: var(--brand);
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 9px;
+  right: -8px;
+  z-index: 999;
+}
+
+/* ===== card area starts ===== */
+#main-area .card-area .first-layer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 422px;
+  height: 207px;
+  background: #272727;
+  border-radius: 10px;
+  border: 1px solid var(--brand);
+  clip-path: polygon(45% 0, 69% 0, 100% 0, 100% 86%, 94% 100%, 0 100%, 0 0);
+  margin-bottom: 60px;
+  margin: 0 auto;
+}
+#main-area .card-area .first-layer ul{
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #272727;
+}
+#main-area .card-area .first-layer ul li{
+  margin-left: 10px;
+  color: var(--brand);
+  background: #272727;
+}
+#main-area .card-area .first-layer ul li i{
+  font-size: 21px;
+  background: #272727;
+}
+#main-area .card-area .first-layer .second-layer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 422px;
+  height: 207px;
+  background: var(--brand);
+  clip-path: polygon(50% 0, 58% 25%, 100% 25%, 100% 86%, 94% 100%, 0 100%, 0 0);
+  border-radius: 10px;
+}
+#main-area .card-area .first-layer .second-layer .third-layer{
+  width: 420px;
+  height: 206px;
+  background: var(--bg);
+  clip-path: polygon(50% 0, 58% 25%, 100% 25%, 100% 86%, 94% 100%, 0 100%, 0 0);
+  border-radius: 10px;
+}
+#main-area .card-area .first-layer .second-layer .third-layer .contents{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#main-area .card-area .first-layer .second-layer .third-layer .contents .heading{
+  display: flex;
+  align-items: center;
+}
+#main-area .card-area .first-layer .second-layer .third-layer .contents .heading h1{
+  color: var(--white);
+  font-family: var(--btn-font);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+#main-area .card-area .first-layer .second-layer .third-layer .contents .heading p{
+  color: var(--white);
+  font-family: var(--btn-font);
+  font-size: 14px;
+  font-weight: 400;
+  color:#8C8C8C;
+  margin-left: 10px;
+}
+#main-area .card-area .first-layer .second-layer .third-layer .contents .time p{
+  text-align: right;
+  color: #8c8c8c;
+  margin-top: -10px;
+  margin-right: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+#main-area .card-area .first-layer .second-layer .third-layer .contents .hr{
+  width: 95%;
+  height: 1px;
+  background: #585858;
+  margin-top: 8px;
+}
+#main-area .card-area .first-layer .second-layer .third-layer .contents .details p{
+  color: #c0c0c0;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  padding-right: 15px;
+  margin-top: 10px;
+  line-height: 21px;
+}
+
+#main-area .card-area-2 .first-layer .second-layer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1040px;
+  height: 340px;
+  background: var(--brand);
+  clip-path: polygon(47% 0, 51% 25%, 100% 25%, 100% 86%, 96% 100%, 0 100%, 0 0);
+  border-radius: 10px;
+  margin: 60px auto;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer{
+  width: 1038px;
+  height: 338px;
+  background: #1e1e1e;
+  clip-path: polygon(47% 0, 51% 25%, 100% 25%, 100% 86%, 96% 100%, 0 100%, 0 0);
+  border-radius: 10px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading{
+  display: flex;
+  align-items: center;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading h1{
+  color: var(--white);
+  font-family: var(--btn-font);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading p{
+  color: var(--white);
+  font-family: var(--btn-font);
+  font-size: 14px;
+  font-weight: 400;
+  color:#8C8C8C;
+  margin-left: 10px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .time p{
+  text-align: right;
+  color: #8c8c8c;
+  margin-top: -10px;
+  margin-right: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul{
+  display: flex;
+  margin-left: 50px;
+  background: var(--bg);
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul li{
+  margin-left: 10px;
+  color: var(--brand);
+  background: var(--bg);
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .heading ul li i{
+  font-size: 21px;
+  background: var(--bg);
+} 
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .hr{
+  width: 95%;
+  height: 1px;
+  background: #585858;
+  margin-top: 30px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .details p{
+  color: #c0c0c0;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  padding-right: 85px;
+  margin-top: 40px;
+  line-height: 24px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .footer{
+  display: flex;
+  justify-content: space-between;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .social-area{
+  display: flex;
+  margin-top: 20px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .social-area p{
+  margin-right: 20px;
+  color: #898989;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .replay{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+#main-area .card-area-2 .first-layer .second-layer .third-layer .contents .replay p{
+  color: #898989;
+  margin-right: 30px;
+}
+/* ===== main area css ends ===== */
